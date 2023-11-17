@@ -16,11 +16,11 @@
 const btnGrid = document.querySelector('#btnGridSize')
 btnGrid.addEventListener('click', ()=> {
     const sizeOfGrid= document.querySelector('#sizeOfGrid');
-    if(sizeOfGrid.value > 100){
-        const gridValue = 100;
-    }else {
-        const gridValue = sizeOfGrid.value;
+    let gridValue = sizeOfGrid.value;
+    if(gridValue > 100){
+        gridValue = 100;
     }
+    console.log(gridValue);
     resetGrid();
     createGrid(gridValue);
 });
