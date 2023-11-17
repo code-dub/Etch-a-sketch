@@ -1,7 +1,12 @@
+body{
+    background-color: teal;
+}
+
+
 .parentContainer {
     display: flex;
     /* flex-direction: row; */
-    background-color: lightseagreen;
+    background-color: white;
     width: 640px;
     height: 640px;
     margin: auto;
