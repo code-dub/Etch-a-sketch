@@ -1,20 +1,19 @@
 .parentContainer {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     background-color: lightseagreen;
-    width: 100px;
-    height: 100px;
+    width: 640px;
+    height: 640px;
     margin: auto;
     /* align-items: stretch; */
-    align-content: stretch;
+    /* align-content: stretch; */
     /* justify-content: space-between; */
-    flex-grow: 1; 
+    /* flex-grow: 1;  */
     flex-wrap: wrap;
+    border: 1px solid;
+
 }
 
-.class{
-    /* margin: 0px 0px; */
-    /* padding: 0px 0px; */
-
-
+.buttonContainer{
+    margin: auto;
 }
